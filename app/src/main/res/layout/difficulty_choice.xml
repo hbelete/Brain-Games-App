@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".difficulty_choice"
+    android:background="@color/Plum">
+
+    <Button
+        android:id="@+id/adv_btn"
+        android:layout_width="223dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:background="@color/black"
+        android:onClick="newAdvGame"
+        android:text="@string/advance_btn"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/int_btn"
+        android:layout_width="223dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:onClick="newIntGame"
+        android:text="@string/intermediate_btn"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/difficulty_message"
+        android:layout_width="322dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/choose_difficulty"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/beg_btn"
+        android:layout_width="223dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:background="@color/black"
+        android:onClick="newBegGame"
+        android:text="@string/beginner_btn"
+        android:textColor="@color/white" />
+</RelativeLayout>
